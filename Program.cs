@@ -13,6 +13,7 @@ namespace WbcDemo
     {
         public static void Main(string[] args)
         {
+            //create builder
             CreateHostBuilder(args).Build().Run();
         }
 
