@@ -32,7 +32,7 @@ namespace WbcDemo
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello everyone modif on github!");
+                    await context.Response.WriteAsync("Hello everyone modif on test branch!");
                 });
             });
         }
